@@ -1,3 +1,4 @@
 braintree*
 /vendor/
 *.lock
+braintree-init.php

@@ -12,7 +12,11 @@
 
 <body>
     <?php include 'components/fieldset-1.php' ?>
-
+    
     <script src="scripts/braintree.js"></script>
+    
+    <script>
+        
+    </script>
 </body>
 </html>
