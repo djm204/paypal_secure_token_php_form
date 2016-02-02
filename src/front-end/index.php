@@ -1,5 +1,7 @@
 <?php 
 
+
+    include_once('../server-side/token-creation.php');
 ?>
 <!DOCTYPE html>
 
@@ -9,7 +11,7 @@
 </head>
 
 <body>
-
+    <?php include 'components/fieldset-1.php' ?>
 
     <script src="scripts/braintree.js"></script>
 </body>

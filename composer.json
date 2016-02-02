@@ -1,0 +1,14 @@
+{
+    "name": "desiratech/paypal-secure-token",
+    "description": "braintree secure tokens",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "david mendez",
+            "email": "davidjm204@gmail.com"
+        }
+    ],
+    "require": {
+        "braintree/braintree_php" : "3.8.0"
+    }
+}
