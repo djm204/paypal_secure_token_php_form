@@ -9,6 +9,7 @@ You will have to create a 'braintree-init.php' equivalent which initializes the 
 
 
 For mine I am using:
+
 `include_once(__DIR__.'/../../vendor/braintree/braintree_php/lib/Braintree.php');
 Braintree_Configuration::environment('sandbox');
 Braintree_Configuration::merchantId('Your-Merchant-ID');
