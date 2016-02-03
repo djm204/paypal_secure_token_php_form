@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <form id="checkout" method="post" action="/checkout">
+    <form id="checkout" method="post" action="src/server-side/processPayment.php">
         <div id="payment-form"><?php include 'components/fieldset-1.php' ?></div>
         <input type="submit" value="Pay Online Now">
 </form>
             
-    
+    <script src="src/front-end/scripts/jquery.min.js"></script>
+    <script src="src/front-end/scripts/form-functions.js"></script>
     <script src="src/front-end/scripts/braintree.js"></script>
     
     <script>
