@@ -1,6 +1,5 @@
 <?php 
 
-
     include_once('src/server-side/token-creation.php');
 ?>
 <!DOCTYPE html>

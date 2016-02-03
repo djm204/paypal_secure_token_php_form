@@ -19,5 +19,5 @@
         <option value="6000">Tap</option>
         <option value="10000">Ballet</option>
     </select>
-    Total: <input type="text" name="total" id="total" disabled />
+    Total: <input type="text" name="total" id="total" readonly/>
 </div>
